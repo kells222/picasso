@@ -3,9 +3,32 @@ body {
     padding: 0;
 }
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* vh is a unit of height, vertical height */
     background-color: #00989d;
+}
+
+.upper-box{
+    position: relative;
+    display: flex;
+    height: 50%;
+    background-color: #00989d;
+}
+
+.upper-box div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+    border: white 0.3rem solid;    
+}
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
