@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* vh is a unit of height, vertical height */
+    background-color: #00989d;
+}
